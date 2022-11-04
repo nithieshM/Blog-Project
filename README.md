@@ -1,8 +1,13 @@
 # Blog-Project
 
-This Blog Project was created using Django. 
+This Blog Project was created using Django.
+
+This project is in production and live, access the project through this URL: https://blog-project-production-f7df.up.railway.app/
 
 It has a Create new Post function, An edit function. It has Security features built in also where you cannot edit or add new posts if you are not logged in.
+It also has a login and new user registration system. To access these features add these two commands to the end of the URL:
+        - /login [for logging in if you are a registered user.]
+        - /register [for registering if you are a new user.]
 
 The create new post and edit functions are made with Django Forms. After creating or editing a new post you are also automatically redirected to the post.
 The posts are sorted by Oldest Created. 
