@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-tksb=k!_2tsy(b
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != False
 
-ALLOWED_HOSTS = ['https://blog-project-production-f7df.up.railway.app', '127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['blog-project-production-f7df.up.railway.app', '127.0.0.1', '.pythonanywhere.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://blog-project-production-f7df.up.railway.app']
 
