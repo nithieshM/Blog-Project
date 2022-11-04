@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}         
+
+{% block content %}
+<div class="container py-2">
+    <h1>Register</h1>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ register_form|crispy }}                    
+        <button class="save btn btn-secondary" type ="submit">Register</button>
+    </form>
+    <p class="text-center">If you already have an account, <a href="/login">login</a> instead.</p>
+</div>
+{% endblock %}
